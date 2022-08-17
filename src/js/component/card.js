@@ -30,7 +30,7 @@ export const Card = () => {
                 alt="..."
                 style={{ width: "auto", height: "12rem" }}
               />
-                <h6 className="card-title bg-dark text-light">{item.fullName}</h6>
+                <h6 className="card-title bg-dark text-light p-2">{item.fullName}</h6>
             </div>
           </div>
         ))}
