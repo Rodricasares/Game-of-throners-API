@@ -14,4 +14,17 @@ body{
     -webkit-box-shadow: 0px 0px 15px 15px #d69110ef;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
+    
 }
+
+
+.slider{
+    display: flex;
+    cursor: grab;
+}
+
+.slider-container{
+    margin: 2 auto;
+    overflow-x: hidden;
+}
+
