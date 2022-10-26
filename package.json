@@ -3,13 +3,15 @@
 	"engines": {
 		"node": "16.x"
 	},
+	"homepage":"https://github.com/Rodricasares/Game-of-throners-API",
 	"version": "1.0.1",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"predeploy":"npm run build",
 		"start": "webpack-dev-server --config webpack.dev.js --host 0.0.0.0 --port 3000",
 		"build": "webpack --config webpack.prod.js",
-		"deploy": "node deploy-to-github.js"
+		"deploy": "gh-pages -d build"
 	},
 	"author": {
 		"name": "Alejandro Sanchez",
