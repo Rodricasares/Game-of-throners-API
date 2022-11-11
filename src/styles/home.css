@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-image: center;
     object-fit: cover;
+    background-size: cover;
 
 
 }
