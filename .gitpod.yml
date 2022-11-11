@@ -8,6 +8,3 @@ tasks:
       command: >
         python docs/assets/greeting.py
 
-vscode:
-  extensions:
-    - esbenp.prettier-vscode
