@@ -10,7 +10,7 @@ body {
 .gthrone{
     left: 0;
     background-size: cover;
-    height: auto;
+    height:-1%;
     width: 85%;
 }
 
