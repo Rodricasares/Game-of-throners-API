@@ -1,11 +1,7 @@
 body {
     background-image: url('https://images4.alphacoders.com/242/242556.png');
     background-repeat: no-repeat;
-    background-image: center;
     object-fit: cover;
-    background-size: cover;
-
-
 }
 .gthrone{
     left: 0;
